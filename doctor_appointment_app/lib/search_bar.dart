@@ -11,7 +11,7 @@ class _search_barState extends State<search_bar> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * .40,
+      height: MediaQuery.of(context).size.height * .35,
       padding: EdgeInsets.symmetric(vertical: 15, horizontal: 20),
       color: Color(0xff07919D),
       child: Column(

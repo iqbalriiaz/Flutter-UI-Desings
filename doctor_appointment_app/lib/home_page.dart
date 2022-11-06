@@ -14,24 +14,26 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
-          color: Color(0xffF1F7FF),
-          child: Column(
-            children: [
-              search_bar(),
-              SizedBox(height: MediaQuery.of(context).size.height * .0065),
-              services(),
-              SizedBox(
-                height: MediaQuery.of(context).size.height * .0065,
-              ),
-              update(),
-              SizedBox(
-                height: MediaQuery.of(context).size.height * .006,
-              ),
-              NavBar()
-            ],
-          )),
+    return SafeArea(
+      child: Scaffold(
+        body: Container(
+            color: Color(0xffF1F7FF),
+            child: Column(
+              children: [
+                Expanded(flex: 4, child: search_bar()),
+                SizedBox(height: MediaQuery.of(context).size.height * .0065),
+                Expanded(flex: 3, child: services()),
+                SizedBox(
+                  height: MediaQuery.of(context).size.height * .0065,
+                ),
+                Expanded(flex: 2, child: update()),
+                SizedBox(
+                  height: MediaQuery.of(context).size.height * .0065,
+                ),
+                Expanded(flex: 1, child: NavBar())
+              ],
+            )),
+      ),
     );
   }
 }

@@ -12,7 +12,6 @@ class _servicesState extends State<services> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * .2999,
       color: Color(0xffFFFFFF),
       padding: EdgeInsets.all(30),
       child: Column(
