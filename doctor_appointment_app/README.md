@@ -3,6 +3,6 @@
 ## Screenshots
 <p align="center">
 
-<img src="https://github.com/iqbalriiaz/image-logo/blob/main/doctor-appointment-app.gif" style="height: 50%; width:50%;"/>
+<img src="https://github.com/iqbalriiaz/image-logo/blob/main/doctor-appointment-app.gif" style="height: 100%; width:100%;"/>
 
 </p>
