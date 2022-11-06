@@ -59,16 +59,11 @@ class _search_barState extends State<search_bar> {
                   SizedBox(
                     width: 10,
                   ),
-                  Container(
-                    padding: EdgeInsets.all(5),
-                    decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(50)),
-                    child: ClipOval(
-                      child: Image.asset(
-                        'assets/images/1.png',
-                        width: 50,
-                      ),
+                  Center(
+                    child: CircleAvatar(
+                      radius: 30,
+                      backgroundImage: AssetImage("assets/images/doc3.jpg"),
+                      backgroundColor: Colors.transparent,
                     ),
                   ),
                 ],
