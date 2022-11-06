@@ -190,13 +190,10 @@ class AppointmentPage extends StatelessWidget {
                         ),
                       ],
                     ),
-                    SizedBox(
-                      height: 10,
-                    ),
                     Text("Session fee for 30 minutes",
                         style: TextStyle(fontSize: 15, color: Colors.grey)),
                     SizedBox(
-                      height: 20,
+                      height: 10,
                     ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,

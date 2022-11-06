@@ -103,7 +103,6 @@ class _DoctorListPageState extends State<DoctorListPage> {
                   itemBuilder: (BuildContext context, int index) {
                     return Container(
                       color: Colors.white,
-                      height: 200,
                       width: double.infinity,
                       child: Padding(
                         padding: const EdgeInsets.all(20.0),
@@ -247,7 +246,7 @@ class _DoctorListPageState extends State<DoctorListPage> {
                                             ],
                                           ),
                                           SizedBox(
-                                            width: 20,
+                                            width: 10,
                                           ),
                                           ElevatedButton(
                                             style: ElevatedButton.styleFrom(
