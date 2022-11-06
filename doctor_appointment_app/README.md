@@ -1,4 +1,4 @@
-# doctor_appointment_app
+# doctor_appointment_app_ui
 
 ## Screenshots
 <p align="center">
